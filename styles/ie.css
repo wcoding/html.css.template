@@ -1,0 +1,88 @@
+
+/* icon_bullet_points */
+.icon_bullet_points h2 {
+	background: url("../img/star.png") no-repeat left top;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #4d4c4c;
+	padding-left: 28px;
+}
+
+.icon_bullet_points div:first-child h2 {
+	background: url("../img/satellit.png") no-repeat left 2px;
+}
+
+.icon_bullet_points div.last-child h2 {
+	background: url("../img/calendar.png") no-repeat left 3px;
+}
+
+
+/* Main */
+
+/* Slider */
+.wrap-main .main section .slider .slick-dots li button:before {
+    content: '';
+    font-size: 9px;
+	line-height: 21px;
+}
+
+.wrap-main .main section .slider .slick-dots li.slick-active button:before {
+	content: '•';
+}
+
+/* Article */
+.wrap-main .main section article div.post p a.readMore {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+
+.wrap-main .main section article div.post > a.amountCommets {
+	background: url("../img/background/amountCommets-bg.png") no-repeat center top;
+	position: absolute;
+	top: 0px;
+	right: -60px;
+	display: block;
+	width: 66px;
+	height: 59px;
+	text-decoration: none;
+}
+
+.wrap-main .main section article div.post > a.amountCommets span {
+	font-family: 'Allerta';
+	text-align: center;
+	margin-top: 6px;
+	display: block;
+	color: #fff;
+	font-size: 24px;
+	text-shadow: 0px 1px 0px #000;
+}
+
+
+/* Footer */
+footer .footer-top div.last-child {
+	width: 280px;
+}
+
+footer .footer-top div.last-child span {
+	background: url("../img/background/We_on_Maps-bg.png") no-repeat center top;
+	position: relative;
+	display: block;
+	width: 281px;
+	height: 201px;
+}
+
+footer .footer-top div.last-child span span {
+	background: none;
+	position: absolute;
+	top: 3px;
+	left: 4px;
+	display: block;
+	max-width: 273px;
+	max-height: 169px;
+}
+
+footer .footer-top div.last-child span span img {
+	width: 273px;
+	height: 169px;
+}
